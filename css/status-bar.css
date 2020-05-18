@@ -1,8 +1,16 @@
 .status-bar {
+  /*position: fixed;
+  top: 0px;
+  left: 20px;
+  right: 20px;
+  background-color: white;*/
   display: flex;
   justify-content: space-between;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
   margin-bottom: 30px;
   opacity: 0.7;
+  /*color: #656565;*/
 }
 
 .status-bar i {
