@@ -35,7 +35,8 @@
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
 .friend .chat__timestamp {
-  opacity: 0.6;
+  color: rgba(0, 0, 0, 0.6);
+  /* opacity: 0.6; */
 }
 
 .friend__content .friend__bottom-text {
