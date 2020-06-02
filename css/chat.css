@@ -23,7 +23,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #fcfcfc;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 40px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
@@ -33,7 +33,10 @@
 }
 
 .chat__write-column:nth-child(2) {
-  width: 80%;
+  /* width: 70%; */
+  position: absolute;
+  left: 50px;
+  right: 80px;
 }
 
 .chat__write-column input {
@@ -41,6 +44,10 @@
   width: 100%;
   border: none;
   font-size: 14px;
+}
+
+.chat__write-icon {
+  margin-left: 10px;
 }
 
 .chat__write-column input:focus {
@@ -110,7 +117,7 @@
 }
 
 .message .message__bubble {
-  background-color: white;
+  /* background-color: white; */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   padding: 10px 20px;
@@ -127,9 +134,11 @@
 .incoming-message .message__bubble {
   border-top-left-radius: 0px;
   margin-right: 10px;
+  background-image: linear-gradient(to right, #bbd2c5, rgba(0, 0, 0, 0));
 }
 
 .sent-message .message__bubble {
   border-top-right-radius: 0px;
   margin-left: 10px;
+  background-image: linear-gradient(to left, #acb6e5, rgba(0, 0, 0, 0));
 }
