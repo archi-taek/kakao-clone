@@ -73,6 +73,6 @@
   border-radius: 5px;
 }
 
-.chat .chats__chat {
+.chats__chat.chat {
   padding-bottom: 30px;
 }
