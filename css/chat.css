@@ -173,7 +173,7 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 70%;
+  width: 80%;
   margin-bottom: 20px;
 }
 
@@ -213,9 +213,15 @@
   animation: spin 3s linear infinite;
 }
 
-.message__timestamp {
+.incoming-message .message__timestamp {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.sent-message .message__timestamp {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: right;
 }
 
 .message .message__bubble {
@@ -243,6 +249,7 @@
   border-top-right-radius: 0px;
   margin-left: 10px;
   background-image: linear-gradient(to left, #acb6e5, rgba(0, 0, 0, 0));
+  text-align: right;
 }
 
 @keyframes incomingAnimation {
